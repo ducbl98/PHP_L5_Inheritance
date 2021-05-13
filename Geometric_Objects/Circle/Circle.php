@@ -11,7 +11,7 @@ class Circle extends Shape
     public int|float $radius;
 
     /**
-     * Circle constructor.
+     * Circles constructor.
      * @param string $name
      * @param float|int $radius
      */

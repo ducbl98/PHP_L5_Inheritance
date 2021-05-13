@@ -7,9 +7,9 @@ use Quadrilateral\Square;
 
 include_once "vendor/autoload.php";
 
-$circle = new Circle('Circle 01', 3);
-echo 'Circle area: ' . $circle->calculateArea() . '<br />';
-echo 'Circle perimeter: ' . $circle->calculatePerimeter() . '<br />';
+$circle = new Circle('Circles 01', 3);
+echo 'Circles area: ' . $circle->calculateArea() . '<br />';
+echo 'Circles perimeter: ' . $circle->calculatePerimeter() . '<br />';
 
 $cylinder = new Cylinder('Cylinder 01', 3, 4);
 echo 'Cylinder area: ' . $cylinder->calculateArea() . '<br />';
